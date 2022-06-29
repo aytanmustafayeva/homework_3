@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Josefin Sans';
+  margin: 0%;
+  padding: 0%;
+}
+
+
+body {
+ width: 100%;
+ height: 100vh;
+} 
+
+/* :root {
+  --primary-color: #25273D;
+  --secondary-color: #C8CBE7;
+}
+
+.light-theme {
+  --primary-color: #C2C3D6;
+  --secondary-color: #494C6B;
+  ;
+} */
+
+
+#header {
+     padding: 50px 60px;
+     color: white;
+     justify-content: center; 
+     align-items: center;
+     flex-direction: column;
+     background-image: url("images/bg-desktop-light.jpg");
+     background-size: cover;
+  }
+
+.h1_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0px 370px 0px 430px;
+    font-family: 'Josefin Sans';
+}
+
+
+i {
+font-size: 30px;
+cursor: pointer;
+background: none;
+/* color: #fff; */
+color: var(--primary-color);
+align-items: center;
+}
+
+
+.header input {
+border-radius: 5px;
+}
+
+
+.header input::placeholder {
+  color: #bfbfbf;
+}
+
+
+#checkbox {
+  border-radius: 35px;
+  padding: 30px;
+}
+
+
+#ul-input {
+  width: 500px;
+  position: absolute;
+  padding: 7px;
+  margin: 0px  430px;
+  border: none;
+}
+
+#ul-input li {
+  padding-left: 10px;
+}
+
+
+#ul-input #text {
+  width: 430px;
+  position: relative;
+  padding: 6px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+
+
+#myul {
+  max-width: 510px;
+  margin: 145px auto;
+  margin-top: 0px;
+  padding: 15px 15px 15px 0px;
+  border: #ccc;
+}
+
+
+#Delete {
+  border-radius: 20px;
+}
+
+
+ul, li {
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#controls {
+  padding-left: 480px;
+  /* padding-top: 0px; */
+  margin-top: 0px auto;
+
+}
+
+#controls, li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#controls p {
+  padding: 2px 17px 0px 0px;
+} 
+
+
+#controls #aac {
+  padding-left: 15px;
+}
+
+#controls #aac span{
+  padding-left: 4px;
+}
+
+
+#controls button {
+  padding-left: 30px; 
+  padding-top: 0px;
+}
+
+
+
+ .filters {
+  padding: 18px 25px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 45px;
+text-decoration: none;
+}
+
+.filters span:hover {
+  color: #3c87ff;
+}
+
+
+.filters span {
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 14px;
+  text-align: right;
+  letter-spacing: -0.194444px;
+}
+
+.filters span:first-child{
+  margin-left: 0;
+}
+
+#controls  .clear_btn {
+outline: none;
+border: none;
+background: none;
+font-size: 14px;
+/* color: #fff; */
+font-style: normal;
+line-height: 14px;
+text-align: right;
+letter-spacing: -0.194444px;
+display: flex;
+cursor: pointer;
+
+}
+
+#controls button:hover {
+  color: #3c87ff;
+}
+
+#footer {
+  text-align: center;
+  padding: 0px;
+
+}
+
+
+
+
+
